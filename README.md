@@ -19,7 +19,7 @@ Use along with the [twilio](https://github.com/sjwalter/node-twilio) module.
 
       phone.setup(function() {
       ...
-      // Rest of call is documented in the [twilio](https://github.com/sjwalter/node-twilio) package.
+      // Rest of call is documented in the twilio package.
     });
 
 ## License
