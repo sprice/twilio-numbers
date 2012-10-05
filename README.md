@@ -6,7 +6,7 @@ Bulk phone number management for [Node.js](http://nodejs.org) [Twilio](http://tw
 
 Use along with the [twilio](https://github.com/sjwalter/node-twilio) module.
 
-    var TwilioNumbers = require('./lib/twilio-numbers')
+    var TwilioNumbers = require('twilio-numbers')
       , TwilioClient = require('twilio').Client
       , config = require('./config')
       , numbers = new TwilioNumbers(config.twilio_sid, config.twilio_token, config.twilio_app_sid)
