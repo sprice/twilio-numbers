@@ -13,7 +13,7 @@ Use along with the [twilio](https://github.com/sjwalter/node-twilio) module.
       , client = new TwilioClient(config.twilio_sid, config.twilio_token, config.twilio_host);
 
     // Set up a phone using any available number beginning with area code '604'
-    numbers_client.getNumber({"PhoneNumber": "604*******"}, function(number, err) {
+    numbers.getNumber({"PhoneNumber": "604*******"}, function(number, err) {
       if (err) throw err;
       var phone = client.getPhoneNumber(number);
 
