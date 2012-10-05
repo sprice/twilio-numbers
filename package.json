@@ -1,10 +1,16 @@
 {
   "name": "twilio-numbers",
-  "description": "Bulk number management for Twilio applications",
   "version": "0.0.1",
+  "description": "Bulk phone number management for Twilio applications",
   "main": "index.js",
+  "author": "Shawn Price <shawnp@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "twilio": "git://github.com/sprice/node-twilio.git#master"
-  }
+  },
+  "keywords": [
+    "twilio",
+    "phone",
+    "voip"
+  ]
 }
