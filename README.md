@@ -25,3 +25,10 @@ Use along with the [twilio](https://github.com/sjwalter/node-twilio) module.
 ## License
 
 Licensed MIT. See LICENSE file.
+
+## Todo
+
+* Complete `buyNumbers()`
+* Complete `deleteNumbers()`
+* Store numbers in redis
+* Test using mocks
